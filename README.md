@@ -1,4 +1,4 @@
-# Endless-procedural-generation-of-backrooms-Makarov-version
+# Версия сайтовая
 
 Я создал подсобные помещения на движке babylon, перемещаясь с помощью стрелок ←, →, ↑, ↓ на клавиатуре и мыши.
 
