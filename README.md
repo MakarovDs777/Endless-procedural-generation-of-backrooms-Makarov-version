@@ -61,14 +61,18 @@
 ## Опциональные версии бэкрумс
 
 [Backrooms in Babylon.js (Optional version - Backrooms flying into the sky) | Babylon.js Playground](https://playground.babylonjs.com/#34X9YU#0)
-[]()
-[]()
-[]()
-[]()
-[]()
-[]()
-
-
+[Backrooms in Babylonjs(Optional version-Biome generation is like in a randonautica with zones of fullness and emptiness) | Babylon.js Playground](https://playground.babylonjs.com/#Y3TM2F#0)
+[Backrooms in Babylon.js(Optional version-The carpet is endless, but the texture can be changed through the input field) | Babylon.js Playground](https://playground.babylonjs.com/#AHP53D#0)
+[Backrooms in Babylon.js (Optional version - no walls) | Babylon.js Playground](https://playground.babylonjs.com/#T7SDF5#0)
+[Backrooms in Babylon.js (Optional version - Trap) | Babylon.js Playground](https://playground.babylonjs.com/#GU5ZOU#0)
+[Backrooms in Babylon.js (Optional version - The infernal Valley of pillars) | Babylon.js Playground](https://playground.babylonjs.com/#1P97PV#0)
+[Backrooms in Babylon.js (Optional version - In different dimensions, sets from different biomes XYZ version) | Babylon.js Playground](https://playground.babylonjs.com/#KQXD6E#0)
+[Backrooms in Babylon.js (Optional version - Generating biomes by masks) | Babylon.js Playground](https://playground.babylonjs.com/#6M3H3Y#0)
+[Backrooms in Babylon.js (Optional version - Endless space XZ of round walls) | Babylon.js Playground](https://playground.babylonjs.com/#JEULSV#0)
+[Backrooms in Babylon.js (Optional version - Endless hanging walls XZ version) | Babylon.js Playground](https://playground.babylonjs.com/#5R23Z2#0)
+[Backrooms in Babylon.js (Optional version - Endless Ruined Building XYZ version) | Babylon.js Playground](https://playground.babylonjs.com/#IG2UMF#0)
+[Backrooms in Babylon.js (Optional version - Endless Building XYZ version) | Babylon.js Playground](https://playground.babylonjs.com/#3US01K#0)
+[Backrooms in Babylon.js (Optional version - Different dimensions with the same different biomes but in XYZ coordinates) | Babylon.js Playground](https://playground.babylonjs.com/#FMT8P7#0)
 
 ## P.S.
 
