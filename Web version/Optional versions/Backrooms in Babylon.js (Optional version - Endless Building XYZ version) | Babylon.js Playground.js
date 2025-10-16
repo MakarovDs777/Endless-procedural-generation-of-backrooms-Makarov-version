@@ -1,0 +1,162 @@
+let existingChunks = {};
+const CHUNK_SIZE = 100;
+
+async function createScene() {
+    const engine = new BABYLON.Engine(canvas);
+    const scene = new BABYLON.Scene(engine);
+    const camera = new BABYLON.FreeCamera(
+        "FreeCam",
+        new BABYLON.Vector3(0, 10, -10),
+        scene
+    );
+    camera.setTarget(BABYLON.Vector3.Zero());
+    camera.attachControl(canvas, true);
+    const hemisphericLight = new BABYLON.HemisphericLight(
+        "Hemispheric Light",
+        new BABYLON.Vector3(1, 1, 0),
+        scene
+    );
+    hemisphericLight.intensity = 0.7;
+
+    scene.registerBeforeRender(() => {
+        GenerateRandomXYZWalls(camera.position);
+    });
+
+    engine.runRenderLoop(() => {
+        if (scene && scene.activeCamera) {
+            scene.render();
+        }
+    });
+
+    return scene;
+}
+
+function GenerateRandomXYZWalls(cameraPosition) {
+    const minX = Math.floor(cameraPosition.x / CHUNK_SIZE) - 2;
+    const maxX = Math.floor(cameraPosition.x / CHUNK_SIZE) + 2;
+    const minY = Math.floor(cameraPosition.y / CHUNK_SIZE) - 2; // Add Y axis
+    const maxY = Math.floor(cameraPosition.y / CHUNK_SIZE) + 2; // Add Y axis
+    const minZ = Math.floor(cameraPosition.z / CHUNK_SIZE) - 2;
+    const maxZ = Math.floor(cameraPosition.z / CHUNK_SIZE) + 2;
+
+    for (let x = minX; x <= maxX; x++) {
+        for (let y = minY; y <= maxY; y++) { // Iterate over Y
+            for (let z = minZ; z <= maxZ; z++) {
+                const chunkId = `${x},${y},${z}`; // Include Y in chunk ID
+                if (!existingChunks[chunkId]) {
+                    existingChunks[chunkId] = { walls: [] };
+                    CreateRandomXYZWallsForChunk(x, y, z, scene, existingChunks[chunkId]); // Pass Y to the creation function
+                }
+            }
+        }
+    }
+}
+
+function CreateRandomXYZWallsForChunk(chunkX, chunkY, chunkZ, scene, chunkData) { // Take Y as an argument
+    const wallCount = Math.floor(Math.random() * 21) + 10;
+    const wallMaterial = new BABYLON.StandardMaterial("wallMaterial", scene);
+    wallMaterial.diffuseTexture = new BABYLON.Texture(
+        "https://i.postimg.cc/fTN3vyCh/wallpaper-new.jpg",
+        scene
+    );
+
+    for (let i = 0; i < wallCount; i++) {
+        const posX = chunkX * CHUNK_SIZE + Math.random() * CHUNK_SIZE;
+        const posY = chunkY * CHUNK_SIZE + Math.random() * CHUNK_SIZE; //Use chunkY
+        const posZ = chunkZ * CHUNK_SIZE + Math.random() * CHUNK_SIZE;
+        const width = 1 + Math.random() * 49;  // Random width for the box
+        const height = 1 + Math.random() * 49; // Random height for the box
+        const depth = 1 + Math.random() * 49;  // Random depth for the box
+
+        // Randomly choose 0, 90, 180, or 270 degrees
+        const rotationYDegrees = Math.floor(Math.random() * 4) * 90;
+        const rotationYRadians = BABYLON.Tools.ToRadians(rotationYDegrees);
+
+        const wall = BABYLON.MeshBuilder.CreateBox( // Use CreateBox instead of CreateCylinder
+            `wall_${chunkX}_${chunkY}_${chunkZ}_${i}`,
+            { width: width, height: height, depth: depth },
+            scene
+        );
+        wall.position = new BABYLON.Vector3(posX, posY, posZ);
+        wall.rotation.y = rotationYRadians; // Set rotation.y only
+
+        wall.material = wallMaterial;
+        AddStaticPhysics(wall, 0.5);
+        chunkData.walls.push(wall);
+    }
+}
+
+function CreateRoom(position) {
+    const roomSize = { width: 20, height: 22, depth: 5 };
+    const roomMaterial = new BABYLON.StandardMaterial("roomMaterial", scene);
+    const wallTexture = new BABYLON.Texture(
+        "https://i.postimg.cc/fTN3vyCh/wallpaper-new.jpg",
+        scene
+    );
+    roomMaterial.diffuseTexture = wallTexture;
+    const room = BABYLON.MeshBuilder.CreateBox("room", roomSize, scene);
+    room.position = position;
+    room.material = roomMaterial;
+    AddStaticPhysics(room, 300);
+    return room;
+}
+
+function CreateCorridor(position, rotation) {
+    const corridorSize = { width: 25, height: 22, depth: 5 };
+    const corridorMaterial = new BABYLON.StandardMaterial("corridorMaterial", scene);
+    const wallTexture = new BABYLON.Texture(
+        "https://i.postimg.cc/fTN3vyCh/wallpaper-new.jpg",
+        scene
+    );
+    corridorMaterial.diffuseTexture = wallTexture;
+    const corridor = BABYLON.MeshBuilder.CreateBox("corridor", corridorSize, scene);
+    corridor.position = position;
+    corridor.rotation.y = rotation;
+    corridor.material = corridorMaterial;
+    AddStaticPhysics(corridor, 300);
+    return corridor;
+}
+
+function GenerateGroundChunks(position) {
+    const chunkX = Math.floor(position.x / CHUNK_SIZE);
+    const chunkZ = Math.floor(position.z / CHUNK_SIZE);
+
+    for (let x = chunkX - 2; x <= chunkX + 2; x++) {
+        for (let z = chunkZ - 2; z <= chunkZ + 2; z++) {
+            const chunkId = `${x},${z}`;
+            if (!scene.getMeshByID(chunkId)) {
+                const groundMaterial = new BABYLON.StandardMaterial(
+                    `GroundMaterial_${chunkId}`,
+                    scene
+                );
+                const groundTexture = new BABYLON.Texture(
+                    "https://i.postimg.cc/wvStLGvz/image.jpg",
+                    scene
+                );
+                groundTexture.uScale = 5;
+                groundTexture.vScale = 5;
+                groundMaterial.diffuseTexture = groundTexture;
+                const ground = BABYLON.MeshBuilder.CreateGround(chunkId, {
+                    width: CHUNK_SIZE,
+                    height: CHUNK_SIZE,
+                });
+                ground.material = groundMaterial;
+                ground.position.x = x * CHUNK_SIZE;
+                ground.position.z = z * CHUNK_SIZE;
+                ground.position.y = -10;
+                AddStaticPhysics(ground, 300);
+            }
+        }
+    }
+}
+
+function AddStaticPhysics(mesh, friction) {
+    mesh.physicsImpostor = new BABYLON.PhysicsImpostor(
+        mesh,
+        BABYLON.PhysicsImpostor.BoxImpostor,
+        { mass: 0, friction: friction },
+        scene
+    );
+}
+
+createScene();
