@@ -86,6 +86,28 @@
 
 [Backrooms in Babylon.js (Optional version - Different dimensions with the same different biomes but in XYZ coordinates) | Babylon.js Playground](https://playground.babylonjs.com/#FMT8P7#0)
 
+## Kane Pixel’s Backrooms in Babylon.js - Optional version
+
+[Kane Pixel’s Backrooms in Babylon.js (Optional version - Cake multi-storey biome generation) | Babylon.js Playground](https://playground.babylonjs.com/#LS4GSZ#0)
+
+[Kane Pixel’s Backrooms in Babylon.js (Optional version - Cubic multi-storey biome generation) | Babylon.js Playground](https://playground.babylonjs.com/#945FVB#0)
+
+## Бэкрумс на изурфейсах
+
+[Backrooms on isurfaces (version 0 - Themezzanine 2) | Babylon.js Playground](https://playground.babylonjs.com/#YCI2DG#0)
+
+## Бэкрумс в Babylon.js — стены по сеткам линий
+
+[Backrooms in Babylon.js (Walls on grids of lines - Endless procedural generation of walls based on masks of lines) | Babylon.js Playground](https://playground.babylonjs.com/#TFUHZL#0)
+
+[Backrooms in Babylon.js (Walls on grids of lines - The endless grid with diagonals is broken) | Babylon.js Playground](https://playground.babylonjs.com/#39Z59A#0)
+
+## Бэкрумс в Babylon.js, уровень 11 — Бесконечный город
+
+[Backrooms in Babylon.js level 11 - The Endless Sity (Version 0) | Babylon.js Playground](https://playground.babylonjs.com/#D14H1M#0)
+
+[Backrooms in Babylon.js level 11 - The Endless Sity (Version 1) | Babylon.js Playground](https://playground.babylonjs.com/#N96KG5#0)
+
 ## P.S.
 
 Теперь это полноценное закулисное пространство! Возможно, кто-то придумает какие-то новые проекты, и проект будет развиваться.
