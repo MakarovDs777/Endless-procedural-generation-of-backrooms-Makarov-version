@@ -24,6 +24,14 @@
 
 [Backrooms in Babylon.js (Version 3) | Babylon.js Playground](https://playground.babylonjs.com/#1XXCMX)
 
+[Backrooms in Babylon.js (Version 4) | Babylon.js Playground](https://playground.babylonjs.com/#HUS6UR#0)
+
+[Backrooms in Babylon.js (Version 5) | Babylon.js Playground](https://playground.babylonjs.com/#XNSPM5#0)
+
+[Backrooms in Babylon.js (Version 6) | Babylon.js Playground](https://playground.babylonjs.com/#Q926I8#0)
+
+[Backrooms in Babylon.js (Version 7) | Babylon.js Playground](https://playground.babylonjs.com/#74JVEN#0)
+
 ## Версия Кейна Пикселя
 
 В первой версии я добавил возможность генерации структуры на основе граней и массивов вершин. Вам просто нужно немного отклониться в сторону, чтобы увидеть генерацию.
