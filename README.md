@@ -28,7 +28,7 @@
 
 [Backrooms in Babylon.js (Version 4) | Babylon.js Playground](https://playground.babylonjs.com/#HUS6UR#1)
 
-В пятой версии
+В пятой версии я сделал генерацию стен по лабиринту ведь бэкрумс это не случано расположенные стены в случайных метсах а бесконечный лабиринт. 
 
 [Backrooms in Babylon.js (Version 5) | Babylon.js Playground](https://playground.babylonjs.com/#XNSPM5#0)
 
