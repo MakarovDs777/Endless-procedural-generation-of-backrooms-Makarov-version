@@ -22,7 +22,7 @@
 
 В третьей версии я добавил бесконечно генерируемые процедурно равномерно расположенные лампы.
 
-[Backrooms in Babylon.js (Version 3) | Babylon.js Playground](https://playground.babylonjs.com/#1XXCMX)
+[Backrooms in Babylon.js (Version 3) | Babylon.js Playground](https://playground.babylonjs.com/#1XXCMX#1)
 
 В четвертой версии я сделал так что-бы лампы генерировались с вероятность 50 процентов, и так же добавил поля телепорта.
 
