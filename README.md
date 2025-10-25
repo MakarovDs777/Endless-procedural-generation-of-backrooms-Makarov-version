@@ -104,6 +104,8 @@
 
 [Backrooms in Babylon.js (Optional version - Generating biomes by masks pre-alpha version) | Babylon.js Playground](https://playground.babylonjs.com/?inspectorv2=true#P4J1CZ#0)
 
+[Backrooms in Babylon.js (Optional version - Multi-storey multibiome generation, but only at -Y height in depth) | Babylon.js Playground](https://playground.babylonjs.com/?inspectorv2=true#V0MU79#0)
+
 ## Kane Pixel’s Backrooms in Babylon.js - Optional version
 
 [Kane Pixel’s Backrooms in Babylon.js (Optional version - Cake multi-storey biome generation) | Babylon.js Playground](https://playground.babylonjs.com/#LS4GSZ#0)
