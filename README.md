@@ -54,6 +54,10 @@
 
 [Kane Pixel’s Backrooms in Babylon.js (Version 2 - Multistory multibiome generation) | Babylon.js Playground](https://playground.babylonjs.com/#AWLGMD)
 
+[Kane Pixel’s Backrooms in Babylon.js (Version 3 - Different textures) | Babylon.js Playground](https://playground.babylonjs.com/#9ZJ0XW#0)
+
+[Kanе Pixel’s Backrooms in Babylon.js (Version 4 - Seed of the world) | Babylon.js Playground](http://playground.babylonjs.com/#5R1MLK#0)
+
 # Мобильная версия
 
 ## Оригинальный мобильная версия бэкрумс
@@ -95,6 +99,10 @@
 [Backrooms in Babylon.js (Optional version - Different dimensions with the same different biomes but in XYZ coordinates) | Babylon.js Playground](https://playground.babylonjs.com/#FMT8P7#0)
 
 [Backrooms in Babylon.js (Optional version - Endless trimming of ventilation pipes XZ version) | Babylon.js Playground.js](https://playground.babylonjs.com/#Z6EBKY#0)
+
+[Backrooms in Babylon.js (Optional version - Multiple dimensions with a switching field XYZ version) | Babylon.js Playground](https://playground.babylonjs.com/#0WCJ5W#0)
+
+[Backrooms in Babylon.js (Optional version - Generating biomes by masks pre-alpha version) | Babylon.js Playground](https://playground.babylonjs.com/?inspectorv2=true#P4J1CZ#0)
 
 ## Kane Pixel’s Backrooms in Babylon.js - Optional version
 
