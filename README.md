@@ -110,6 +110,8 @@
 
 [Backrooms in Babylon.js(Optional version-Generating structures along an infinite procedurally generated broken XYZ line) | Babylon.js Playground](https://playground.babylonjs.com/?inspectorv2=true#OHNQ3B#0)
 
+[Backrooms in Babylon.js (Optional version - Generating biomes by masks with a fixed number of floors in height) | Babylon.js Playground](https://playground.babylonjs.com/?inspectorv2=true#SSHIOZ#0)
+
 ## Kane Pixel’s Backrooms in Babylon.js - Optional version
 
 [Kane Pixel’s Backrooms in Babylon.js (Optional version - Cake multi-storey biome generation) | Babylon.js Playground](https://playground.babylonjs.com/#LS4GSZ#0)
