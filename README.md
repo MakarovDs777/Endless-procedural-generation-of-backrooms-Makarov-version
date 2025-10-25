@@ -24,11 +24,19 @@
 
 [Backrooms in Babylon.js (Version 3) | Babylon.js Playground](https://playground.babylonjs.com/#1XXCMX)
 
+В четвертой версии
+
 [Backrooms in Babylon.js (Version 4) | Babylon.js Playground](https://playground.babylonjs.com/#HUS6UR#0)
+
+В пятой версии
 
 [Backrooms in Babylon.js (Version 5) | Babylon.js Playground](https://playground.babylonjs.com/#XNSPM5#0)
 
+В шестой версии
+
 [Backrooms in Babylon.js (Version 6) | Babylon.js Playground](https://playground.babylonjs.com/#Q926I8#0)
+
+В седьмой версии я сделал маркер там где есть опредленная картинка на бесконечном ковре из картинок то там генерируется стена в ином случае нет.
 
 [Backrooms in Babylon.js (Version 7) | Babylon.js Playground](https://playground.babylonjs.com/#74JVEN#0)
 
