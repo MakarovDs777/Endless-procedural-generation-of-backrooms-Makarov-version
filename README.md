@@ -32,7 +32,7 @@
 
 [Backrooms in Babylon.js (Version 5) | Babylon.js Playground](https://playground.babylonjs.com/#XNSPM5#0)
 
-В шестой версии
+В шестой версии я сделал бесконечную процедрнуюу генерацию стен по картинкам и там где есть черное на картинке там стены а там где белое там не генируются стены.
 
 [Backrooms in Babylon.js (Version 6) | Babylon.js Playground](https://playground.babylonjs.com/#Q926I8#0)
 
