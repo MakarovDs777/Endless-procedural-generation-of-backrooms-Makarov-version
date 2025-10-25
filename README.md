@@ -30,7 +30,7 @@
 
 В пятой версии я сделал генерацию стен по лабиринту ведь бэкрумс это не случано расположенные стены в случайных метсах а бесконечный лабиринт. 
 
-[Backrooms in Babylon.js (Version 5) | Babylon.js Playground](https://playground.babylonjs.com/#XNSPM5#0)
+[Backrooms in Babylon.js (Version 5) | Babylon.js Playground](https://playground.babylonjs.com/#XNSPM5#2)
 
 В шестой версии я сделал бесконечную процедрнуюу генерацию стен по картинкам и там где есть черное на картинке там стены а там где белое там не генируются стены.
 
