@@ -26,7 +26,7 @@
 
 В четвертой версии я сделал так что-бы лампы генерировались с вероятность 50 процентов, и так же добавил поля телепорта.
 
-[Backrooms in Babylon.js (Version 4) | Babylon.js Playground](https://playground.babylonjs.com/#HUS6UR#1)
+[Backrooms in Babylon.js (Version 4) | Babylon.js Playground](https://playground.babylonjs.com/#HUS6UR#2)
 
 В пятой версии я сделал генерацию стен по лабиринту ведь бэкрумс это не случано расположенные стены в случайных метсах а бесконечный лабиринт. 
 
