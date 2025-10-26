@@ -172,13 +172,21 @@
 
 ## Бэкрумс в Babylon.js — стены по сеткам линий
 
+Бэкрумс но мы сделали сетки из линий по маскам и по этим сеткам делаем стены, и так получается бесконечный лабиринт, и заранее заданных масок стен.
+
 [Backrooms in Babylon.js (Walls on grids of lines - Endless procedural generation of walls based on masks of lines) | Babylon.js Playground](https://playground.babylonjs.com/#TFUHZL#0)
+
+После долгих размышлений на тему бэкрумса я понял что что-бы создать бэкрумс нужно просто взять сетку из линий, и в случайном процентном соотношении удалить случайные отрезки линий, и тогда по этим линиям провести стены, и легко получится лабиринт бэкрумс.
 
 [Backrooms in Babylon.js (Walls on grids of lines - The endless grid with diagonals is broken) | Babylon.js Playground](https://playground.babylonjs.com/#39Z59A#0)
 
 ## Бэкрумс в Babylon.js, уровень 11 — Бесконечный город
 
+Бесконечный город на бесконечной плоской земле равномерно друг от друга здания.
+
 [Backrooms in Babylon.js level 11 - The Endless Sity (Version 0) | Babylon.js Playground](https://playground.babylonjs.com/#D14H1M#0)
+
+Бесконечный город где равномерно друг от друга здания.
 
 [Backrooms in Babylon.js level 11 - The Endless Sity (Version 1) | Babylon.js Playground](https://playground.babylonjs.com/#N96KG5#0)
 
