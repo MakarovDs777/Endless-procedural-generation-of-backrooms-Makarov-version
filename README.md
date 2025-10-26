@@ -72,49 +72,91 @@
 
 ## Опциональные версии бэкрумс
 
-[Backrooms in Babylon.js (Optional version - Backrooms flying into the sky) | Babylon.js Playground](https://playground.babylonjs.com/#34X9YU#0)
-
-[Backrooms in Babylonjs(Optional version-Biome generation is like in a randonautica with zones of fullness and emptiness) | Babylon.js Playground](https://playground.babylonjs.com/#Y3TM2F#0)
-
-[Backrooms in Babylon.js(Optional version-The carpet is endless, but the texture can be changed through the input field) | Babylon.js Playground](https://playground.babylonjs.com/#AHP53D#0)
-
-[Backrooms in Babylon.js (Optional version - no walls) | Babylon.js Playground](https://playground.babylonjs.com/#T7SDF5#0)
-
-[Backrooms in Babylon.js (Optional version - Trap) | Babylon.js Playground](https://playground.babylonjs.com/#GU5ZOU#0)
+Бесконечный процедуирно генерируемый пол, и на нём столбы разного размера равномерно друг от друга расположенные, и так до бесконечности.
 
 [Backrooms in Babylon.js (Optional version - The infernal Valley of pillars) | Babylon.js Playground](https://playground.babylonjs.com/#1P97PV#0)
 
+Представим бэкрумс но в нём есть автоматическая камера котормая летает бесконечно случайно летает по случайным коридорам.
+
+[Backrooms in Babylon.js (Optional version - Backrooms flying into the sky) | Babylon.js Playground](https://playground.babylonjs.com/#34X9YU#0)
+
+Помните приложение рандонавтика его суть в том что есть карта Google на которой войды, и полноты, и в случайных зонах полнот генерируются точки аномальности где есть что-то типа странное, и необычное.
+
+[Backrooms in Babylonjs(Optional version-Biome generation is like in a randonautica with zones of fullness and emptiness) | Babylon.js Playground](https://playground.babylonjs.com/#Y3TM2F#0)
+
+Бэкрумс в котором бесконченый ковёр, и мы можем через поле ввода изменить этот ковёр на новую текстуру.
+
+[Backrooms in Babylon.js(Optional version-The carpet is endless, but the texture can be changed through the input field) | Babylon.js Playground](https://playground.babylonjs.com/#AHP53D#0)
+
+Представьте бэкрумс в котором есть только потолок, и пол а стен нету! Это именно то.
+
+[Backrooms in Babylon.js (Optional version - no walls) | Babylon.js Playground](https://playground.babylonjs.com/#T7SDF5#0)
+
+Бэкрумс но эта ловушка когда мы приближаемся к кордиорам выходы начинаются меняться.
+
+[Backrooms in Babylon.js (Optional version - Trap) | Babylon.js Playground](https://playground.babylonjs.com/#GU5ZOU#0)
+
+Представим что в бэкрумс есть много разных измерений, и в разных измерениях разные наборы биомов.
+
 [Backrooms in Babylon.js (Optional version - In different dimensions, sets from different biomes XYZ version) | Babylon.js Playground](https://playground.babylonjs.com/#KQXD6E#0)
+
+Представим что есть бесконечный процедурно генерируемый XYZ бэкрумс но генерация биомов происходит по маскам скажем 0 - это отсутвие комнаты 1 - это какая-то структура OBJ и так до бесконечности.
 
 [Backrooms in Babylon.js (Optional version - Generating biomes by masks) | Babylon.js Playground](https://playground.babylonjs.com/#6M3H3Y#0)
 
+Бесконечный процедурно генерируемый бэкрумс по XZ но в нём круглые стены случайно повернутые на 360 градуссов, и расположенные в случайных местах.
+
 [Backrooms in Babylon.js (Optional version - Endless space XZ of round walls) | Babylon.js Playground](https://playground.babylonjs.com/#JEULSV#0)
+
+Бесконечный процедурно генерируемый бэкрумс по XZ но в нём квадратные стены случайно повернутые на 360 градуссов, и расположенные в случайных местах.
 
 [Backrooms in Babylon.js (Optional version - Endless hanging walls XZ version) | Babylon.js Playground](https://playground.babylonjs.com/#5R23Z2#0)
 
+Бесконечный процедурно генерируемый бэкрумс по XYZ но в нём квадратные стены случайного размера, и случайно повернутые на 360 градуссов, и расположенные в случайных местах равномерно что будто напомниает бесконечное разрушенное здание под завалами.
+
 [Backrooms in Babylon.js (Optional version - Endless Ruined Building XYZ version) | Babylon.js Playground](https://playground.babylonjs.com/#IG2UMF#0)
+
+Бесконечный процедурно генерируемый бэкрумс по XYZ но в нём квадратные стены случайного размера, и случайно повернутые на ровное количество градусов в случайные стороны, и расположенные в случайных местах равномерно что будто напомниает бесконечное здание под завалами.
 
 [Backrooms in Babylon.js (Optional version - Endless Building XYZ version) | Babylon.js Playground](https://playground.babylonjs.com/#3US01K#0)
 
+Бесконечный процедурно генерируемый бэкрумс но в одном измерении один биом, в другом измерении другой биом, и так пока измерения не закончятся.
+
 [Backrooms in Babylon.js (Optional version - Different dimensions with the same different biomes but in XYZ coordinates) | Babylon.js Playground](https://playground.babylonjs.com/#FMT8P7#0)
 
+Новый челендж пробежаться по полу из обрезков случайных винтялиционных труб, и выжить.
+
 [Backrooms in Babylon.js (Optional version - Endless trimming of ventilation pipes XZ version) | Babylon.js Playground.js](https://playground.babylonjs.com/#Z6EBKY#0)
+
+Бэкрумс с множеством измерений где в каждом ищмерении свой отдельный биом но есть поле ввода для переключения между измерениями.
 
 [Backrooms in Babylon.js (Optional version - Multiple dimensions with a switching field XYZ version) | Babylon.js Playground](https://playground.babylonjs.com/#0WCJ5W#0)
 
 [Backrooms in Babylon.js (Optional version - Generating biomes by masks pre-alpha version) | Babylon.js Playground](https://playground.babylonjs.com/?inspectorv2=true#P4J1CZ#0)
 
+Бэкрумс с бесконечной поверхзностью вглубь гд по бесконченой процедурной генерации по XZ, и с исключительной бесконечной генерацией по -Y а в вверх ничего не генерируется.
+
 [Backrooms in Babylon.js (Optional version - Multi-storey multibiome generation, but only at -Y height in depth) | Babylon.js Playground](https://playground.babylonjs.com/?inspectorv2=true#V0MU79#0)
+
+Представи пустое пространство в нём линия по XZ уходящая в случайные направления, и она ломанная и по ней генерирутся как по дороге различные биомы структур комнат, и коридоров.
 
 [Backrooms in Babylon.js (Optional version - Generating structures along an infinite procedurally generated XZ line) | Babylon.js Playground](https://playground.babylonjs.com/?inspectorv2=true#VSYOND#0)
 
+Представим что есть бесконченое пустое пространство, и в нём ломанная линии которая отклоняется в случайную сторону, и по этой ломанной линии XYZ генерируется структуры комнат, и коридоров.
+
 [Backrooms in Babylon.js(Optional version-Generating structures along an infinite procedurally generated broken XYZ line) | Babylon.js Playground](https://playground.babylonjs.com/?inspectorv2=true#OHNQ3B#0)
+
+Бэкрумс с бесконченой процедурной генерации по XZ, и с фиксированной по Y где есть определенное количество этажей скаюжем 3.
 
 [Backrooms in Babylon.js (Optional version - Generating biomes by masks with a fixed number of floors in height) | Babylon.js Playground](https://playground.babylonjs.com/?inspectorv2=true#SSHIOZ#0)
 
 ## Kane Pixel’s Backrooms in Babylon.js - Optional version
 
+Представим что бэкрумс это пирог где на одном этаже один биом, на втором этаже другой биом, и так когда цикл количества биомов завершается он повторяется снова, и так до бесконечности.
+
 [Kane Pixel’s Backrooms in Babylon.js (Optional version - Cake multi-storey biome generation) | Babylon.js Playground](https://playground.babylonjs.com/#LS4GSZ#0)
+
+Версия бэкрумс где есть один биом который между всеми биомами, и в нём кубы биомов разного размера.
 
 [Kane Pixel’s Backrooms in Babylon.js (Optional version - Cubic multi-storey biome generation) | Babylon.js Playground](https://playground.babylonjs.com/#945FVB#0)
 
