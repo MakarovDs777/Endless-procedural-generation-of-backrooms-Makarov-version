@@ -182,11 +182,11 @@
 
 ## Бэкрумс в Babylon.js, уровень 11 — Бесконечный город
 
-Бесконечный город на бесконечной плоской земле равномерно друг от друга здания.
+Бесконечный город с заданным количество одних и тех де зданий где здания прилегают к друг к другу тык в притык.
 
 [Backrooms in Babylon.js level 11 - The Endless Sity (Version 0) | Babylon.js Playground](https://playground.babylonjs.com/#D14H1M#0)
 
-Бесконечный город где равномерно друг от друга здания.
+Бесконечный город на бесконечной плоской земле равномерно друг от друга здания.
 
 [Backrooms in Babylon.js level 11 - The Endless Sity (Version 1) | Babylon.js Playground](https://playground.babylonjs.com/#N96KG5#0)
 
