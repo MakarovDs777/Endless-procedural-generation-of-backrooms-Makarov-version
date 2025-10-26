@@ -54,7 +54,11 @@
 
 [Kane Pixel’s Backrooms in Babylon.js (Version 2 - Multistory multibiome generation) | Babylon.js Playground](https://playground.babylonjs.com/#AWLGMD)
 
+Теперь нужно сделать разные текстуры для стены, пол, и потолка каждого биома.
+
 [Kane Pixel’s Backrooms in Babylon.js (Version 3 - Different textures) | Babylon.js Playground](https://playground.babylonjs.com/#9ZJ0XW#0)
+
+Теперь нужно задать сид для определенной заранее заданной случайно генериацией мира которая бы как в майнкрафте выдовала при вводе этого сида всегда выдовала бы одни, и те же биомы коридоров, и комнат.
 
 [Kanе Pixel’s Backrooms in Babylon.js (Version 4 - Seed of the world) | Babylon.js Playground](http://playground.babylonjs.com/#5R1MLK#0)
 
@@ -131,6 +135,8 @@
 Бэкрумс с множеством измерений где в каждом ищмерении свой отдельный биом но есть поле ввода для переключения между измерениями.
 
 [Backrooms in Babylon.js (Optional version - Multiple dimensions with a switching field XYZ version) | Babylon.js Playground](https://playground.babylonjs.com/#0WCJ5W#0)
+
+Хаос из понатыканых случайно друг в друга комнат, и коридоров, и так до бесконечности по XYZ незнаю зачем это ну пускай будет.
 
 [Backrooms in Babylon.js (Optional version - Generating biomes by masks pre-alpha version) | Babylon.js Playground](https://playground.babylonjs.com/?inspectorv2=true#P4J1CZ#0)
 
